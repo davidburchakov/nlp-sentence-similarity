@@ -37,11 +37,11 @@ characterized by the company it keeps”)*
 #### Gensim Word2Vec
   
 After training gensim's Word2Vec model, we may visualize specific words on the graph of their semantic similarities based on context
-[pic](#)
+![word2vec](docs/word2vec.png)
 
 We may calculate the semantic difference of sentences separately word by word, as well as using cosine similarity measure
-[pic2](#)
-[pic3](#)
+![word2vec2](docs/word2vec2.png)
+![word2vec3](docs/word2vec3.png)
 
 #### GloVe
 
@@ -62,7 +62,13 @@ abilities with various probe words*
 > **[GloVe: Global Vectors for Word Representation. Jeffrey Pennington et al.](https://nlp.stanford.edu/pubs/glove.pdf)**
 >
 
-* FastText
+![glove](docs/glove.png)
+![glove](docs/glove2.png)
+![glove](docs/glove4.png)
+![glove](docs/glove5.png)
+
+
+#### FastText
 >
 > Most of these techniques represent each word of
 the vocabulary by a distinct vector, without parameter sharing. In particular, they ignore the internal
@@ -81,8 +87,8 @@ sum of the n-gram vectors
 Facebook reaserchers provide [open-source](https://fasttext.cc/docs/en/crawl-vectors.html) pre-trained models in 157 languages, one of which is used in this project.
 
 
-[]()
-[]()
+![fasttext](docs/fasttext.png)
+
 
 We came to the conclusion that, though the model is already trained, it may require additional training for our specific problem. For our small problem, Facebook's FastText models do not exhibit superiority.
 
@@ -91,6 +97,9 @@ We came to the conclusion that, though the model is already trained, it may requ
 We've experimented with different Neural Network configurations. Our results largely depended on the data used for training, number of layers of the NN and configurations as well as number of training epochs.
 
 
-()[]
-()[]
-
+![nlg seq2seq pic](docs/nlg1.png)
+![nlg seq2seq pic](docs/nlg2.png)
+![nlg seq2seq pic](docs/nlg3.png)
+![nlg seq2seq pic](docs/nlg4.png)
+![nlg seq2seq pic](docs/nlg5.png)
+![nlg seq2seq pic](docs/nlg6.png)
