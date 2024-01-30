@@ -40,6 +40,8 @@ After training gensim's Word2Vec model, we may visualize specific words on the g
 ![word2vec](docs/word2vec.png)
 
 We may calculate the semantic difference of sentences separately word by word, as well as using cosine similarity measure
+
+
 ![word2vec2](docs/word2vec2.png)
 ![word2vec3](docs/word2vec3.png)
 
